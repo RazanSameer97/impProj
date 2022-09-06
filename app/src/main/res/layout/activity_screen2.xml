@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Screen2">
+
+    <Button
+        android:id="@+id/but_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#2DE635"
+        android:drawableLeft="@drawable/ic_baseline_call_24"
+        android:gravity="center|center_horizontal"
+        android:paddingLeft="10dp"
+        android:text="CALL"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/but_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#0226F3"
+        android:drawableLeft="@drawable/ic_baseline_facebook_24"
+        android:gravity="center|center_horizontal"
+        android:inputType="textWebEditText"
+        android:paddingLeft="10dp"
+        android:text="FACEBOOK"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/but_website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#B04BC1"
+        android:drawableLeft="@drawable/ic_baseline_web_24"
+        android:gravity="center|center_horizontal"
+        android:paddingLeft="10dp"
+        android:text="WEBSITE"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/but_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#FF0000"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:gravity="center|center_horizontal"
+        android:paddingLeft="10dp"
+        android:text="GMAIL"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/but_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#1C1616"
+        android:gravity="center|center_horizontal"
+        android:paddingLeft="10dp"
+        android:text="CANCEL"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
